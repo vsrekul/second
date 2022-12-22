@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/vsrekul/firstrepo.git'
+        git 'https://github.com/vsrekul/second.git'
       }
     }
     stage('Building image') {
